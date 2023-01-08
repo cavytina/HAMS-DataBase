@@ -1,0 +1,9 @@
+## Ignore Database temporary files, build results
+
+# SQL Server files
+*.mdf
+*.ldf
+*.ndf
+
+# SQLite Build files
+*.db
