@@ -34,5 +34,3 @@ WHERE NOT EXISTS (SELECT 1 FROM System_VersionSetting WHERE Name='OpenSourceProt
 INSERT INTO System_VersionSetting (Code,Name,ReferName,Content,Description,Rank,Flag)
 SELECT '01GP83YVRCWT212M2RCV9XZEQB','Email','邮箱','cavy1010@163.com','',5,True
 WHERE NOT EXISTS (SELECT 1 FROM System_VersionSetting WHERE Name='Email');
-
-SELECT * from System_VersionSetting ORDER BY Rank;
