@@ -17,9 +17,9 @@ CREATE TABLE System_PathSetting
 );
 
 INSERT INTO System_PathSetting (Code,Item,Name,Rank,Flag)
-SELECT '01GPKA6WE841SE31MQWH3Y5WNF','DefaultApplictionCatalogue','默认程序运行目录',1,True
+SELECT '01GPKA6WE841SE31MQWH3Y5WNF','ApplictionCatalogue','程序运行目录',1,True
 WHERE NOT EXISTS (SELECT 1 FROM System_PathSetting WHERE Code='01GPKA6WE841SE31MQWH3Y5WNF');
 
 INSERT INTO System_PathSetting (Code,Item,Name,Rank,Flag)
-SELECT '01GPKA6WE85VSFC0S16CF7MCBJ','DefaultNativeDataBaseFilePath','默认本地数据库文件路径',2,True
+SELECT '01GPKA6WE85VSFC0S16CF7MCBJ','NativeDataBaseFilePath','本地数据库文件路径',2,True
 WHERE NOT EXISTS (SELECT 1 FROM System_PathSetting WHERE Code='01GPKA6WE85VSFC0S16CF7MCBJ');
