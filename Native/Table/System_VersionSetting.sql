@@ -39,3 +39,5 @@ WHERE NOT EXISTS (SELECT 1 FROM System_VersionSetting WHERE Code='01GPGV9FGJBMRJ
 INSERT INTO System_VersionSetting (Code,Item,Name,Content,Description,Rank,Flag)
 SELECT '01GPGV9FGJFVY0RYXVEFA9M32C','Email','邮箱','cavy1010@163.com','',6,True
 WHERE NOT EXISTS (SELECT 1 FROM System_VersionSetting WHERE Code='01GPGV9FGJFVY0RYXVEFA9M32C');
+
+It's a pull request test!
