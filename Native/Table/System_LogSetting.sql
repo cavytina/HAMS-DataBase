@@ -22,7 +22,7 @@ SELECT '01GPT3T83953EVANVTJ0ATFAK5','Global','全局设置','Debug',1,False,True
 WHERE NOT EXISTS (SELECT 1 FROM System_LogSetting WHERE Code='01GPT3T83953EVANVTJ0ATFAK5');
 
 INSERT INTO System_LogSetting (Code,Item,Name,Note,Rank,DefaultFlag,EnabledFlag)
-SELECT '01GPT3T839Q7VP6GAGQT12PBXK','Error','错误日志','Error',2,False,True
+SELECT '01GPT3T839Q7VP6GAGQT12PBXK','Application','程序运行日志','Error',2,False,True
 WHERE NOT EXISTS (SELECT 1 FROM System_LogSetting WHERE Code='01GPT3T839Q7VP6GAGQT12PBXK');
 
 INSERT INTO System_LogSetting (Code,Item,Name,Note,Rank,DefaultFlag,EnabledFlag)
