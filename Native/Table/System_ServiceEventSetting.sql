@@ -26,7 +26,7 @@ SELECT '01GQVFMVMZRA9ZKT77XD0ET5X8','ApplictionVerificationService','程序验�
 WHERE NOT EXISTS (SELECT 1 FROM System_ServiceEventSetting WHERE Code='01GQVFMVMZRA9ZKT77XD0ET5X8');
 
 INSERT INTO System_ServiceEventSetting (Code,Item,Name,Content,Rank,DefaultFlag,EnabledFlag)
-SELECT '01GQVFMVMZRA9ZKT77XD0ET5X8','ApplictionInitializationService','程序初始化服务','1103',3,True,True
+SELECT '01GQVFMVMZRA9ZKT77XD0ET5X8','PathService','程序路径服务','1102',2,True,True
 WHERE NOT EXISTS (SELECT 1 FROM System_ServiceEventSetting WHERE Code='01GQVFMVMZRA9ZKT77XD0ET5X8');
 
 INSERT INTO System_ServiceEventSetting (Code,Item,Name,Content,Rank,DefaultFlag,EnabledFlag)
@@ -38,9 +38,9 @@ SELECT '01GQVFMVMZSYP62JBQVQHYQ6DK','AccountAuthenticationService','用户授权
 WHERE NOT EXISTS (SELECT 1 FROM System_ServiceEventSetting WHERE Code='01GQVFMVMZSYP62JBQVQHYQ6DK');
 
 INSERT INTO System_ServiceEventSetting (Code,Item,Name,Content,Rank,DefaultFlag,EnabledFlag)
-SELECT '01GQVG105PF9MQGQ981DK2T8WT','MenuInitializationService','菜单初始化服务','3101',6,True,True
+SELECT '01GQVG105PF9MQGQ981DK2T8WT','ExtensionModuleInitializationService','菜单初始化服务','3101',6,True,True
 WHERE NOT EXISTS (SELECT 1 FROM System_ServiceEventSetting WHERE Code='01GQVG105PF9MQGQ981DK2T8WT');
 
 INSERT INTO System_ServiceEventSetting (Code,Item,Name,Content,Rank,DefaultFlag,EnabledFlag)
-SELECT '01GQVG105P7KHS7T5HCGPEX67K','MenuActivationService','菜单激活服务','3102',7,True,True
+SELECT '01GQVG105P7KHS7T5HCGPEX67K','ExtensionModuleActivationService','菜单激活服务','3102',7,True,True
 WHERE NOT EXISTS (SELECT 1 FROM System_ServiceEventSetting WHERE Code='01GQVG105P7KHS7T5HCGPEX67K');
