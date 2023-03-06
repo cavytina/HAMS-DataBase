@@ -7,3 +7,6 @@ UPDATE TSTANDARDMAIN SET FHQMSMAP = 1 WHERE FID = 1
 INSERT INTO THQMSSTANDARDSET (CatalogCode,CatalogName,StandardCode,StandardValue)
 SELECT 'GBFKFS',CategoryName,Code,Value FROM dbo.T_Map_Standard
 WHERE CategoryID='RC032'
+
+--更新上传机构代码
+UPDATE Tyydmk SET fupyydm='67866859X' WHERE fyydm='01'

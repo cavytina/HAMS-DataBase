@@ -30,3 +30,67 @@ WHERE NOT EXISTS (SELECT 1 FROM HQMS_DictionarySetting WHERE Code='01GT3MKRMZ31S
 INSERT INTO HQMS_DictionarySetting (Code,Item,Name,CategoryCode,CategoryItem,Rank,DefaultFlag,EnabledFlag)
 SELECT '01GT3MKRMZWTXWJTS14R2ED50K','DataExporting','数据导出','01GT3M1KGWN67V9ARD839D7ZSF','MenuSetting',3,True,True
 WHERE NOT EXISTS (SELECT 1 FROM HQMS_DictionarySetting WHERE Code='01GT3MKRMZWTXWJTS14R2ED50K');
+
+INSERT INTO HQMS_DictionarySetting (Code,Item,Name,CategoryCode,CategoryItem,Rank,DefaultFlag,EnabledFlag)
+SELECT '01GTRBPJ9EVCTQFRYN526D77FB','2021','2021','01GTN95ZFWMSK11T1YWYMEGS9Z','YearSetting',4,True,True
+WHERE NOT EXISTS (SELECT 1 FROM HQMS_DictionarySetting WHERE Code='01GTRBPJ9EVCTQFRYN526D77FB');
+
+INSERT INTO HQMS_DictionarySetting (Code,Item,Name,CategoryCode,CategoryItem,Rank,DefaultFlag,EnabledFlag)
+SELECT '01GTRBPJ9E1S3KEXK8AGW44P71','2022','2022','01GTN95ZFWMSK11T1YWYMEGS9Z','YearSetting',5,True,True
+WHERE NOT EXISTS (SELECT 1 FROM HQMS_DictionarySetting WHERE Code='01GTRBPJ9E1S3KEXK8AGW44P71');
+
+INSERT INTO HQMS_DictionarySetting (Code,Item,Name,CategoryCode,CategoryItem,Rank,DefaultFlag,EnabledFlag)
+SELECT '01GTRBPJ9EGFJ5201KS5QHWVHC','2023','2023','01GTN95ZFWMSK11T1YWYMEGS9Z','YearSetting',6,True,True
+WHERE NOT EXISTS (SELECT 1 FROM HQMS_DictionarySetting WHERE Code='01GTRBPJ9EGFJ5201KS5QHWVHC');
+
+INSERT INTO HQMS_DictionarySetting (Code,Item,Name,CategoryCode,CategoryItem,Rank,DefaultFlag,EnabledFlag)
+SELECT '01GTNE9FF0AR2DGX1PKHMA3NEG','2024','2024','01GTN95ZFWMSK11T1YWYMEGS9Z','YearSetting',7,True,True
+WHERE NOT EXISTS (SELECT 1 FROM HQMS_DictionarySetting WHERE Code='01GTNE9FF0AR2DGX1PKHMA3NEG');
+
+INSERT INTO HQMS_DictionarySetting (Code,Item,Name,CategoryCode,CategoryItem,Rank,DefaultFlag,EnabledFlag)
+SELECT '01GTNFVSW2FZSX8DQD6RR5BRJN','January','一月','01GTNFQDADBJCMK9Q8V1ZK8R0M','MonthSetting',8,True,True
+WHERE NOT EXISTS (SELECT 1 FROM HQMS_DictionarySetting WHERE Code='01GTNFVSW2FZSX8DQD6RR5BRJN');
+
+INSERT INTO HQMS_DictionarySetting (Code,Item,Name,CategoryCode,CategoryItem,Rank,DefaultFlag,EnabledFlag)
+SELECT '01GTNFVSW2W12ADBWFDWGAJAWJ','February','二月','01GTNFQDADBJCMK9Q8V1ZK8R0M','MonthSetting',9,True,True
+WHERE NOT EXISTS (SELECT 1 FROM HQMS_DictionarySetting WHERE Code='01GTNFVSW2W12ADBWFDWGAJAWJ');
+
+INSERT INTO HQMS_DictionarySetting (Code,Item,Name,CategoryCode,CategoryItem,Rank,DefaultFlag,EnabledFlag)
+SELECT '01GTNFVSW2PNV7QNF29YS6TGT1','March','三月','01GTNFQDADBJCMK9Q8V1ZK8R0M','MonthSetting',10,True,True
+WHERE NOT EXISTS (SELECT 1 FROM HQMS_DictionarySetting WHERE Code='01GTNFVSW2PNV7QNF29YS6TGT1');
+
+INSERT INTO HQMS_DictionarySetting (Code,Item,Name,CategoryCode,CategoryItem,Rank,DefaultFlag,EnabledFlag)
+SELECT '01GTNFVSW2445YVJT14NNNBD9M','April','四月','01GTNFQDADBJCMK9Q8V1ZK8R0M','MonthSetting',11,True,True
+WHERE NOT EXISTS (SELECT 1 FROM HQMS_DictionarySetting WHERE Code='01GTNFVSW2445YVJT14NNNBD9M');
+
+INSERT INTO HQMS_DictionarySetting (Code,Item,Name,CategoryCode,CategoryItem,Rank,DefaultFlag,EnabledFlag)
+SELECT '01GTNFVSW2YNNETN0RSR10AMCD','May','五月','01GTNFQDADBJCMK9Q8V1ZK8R0M','MonthSetting',12,True,True
+WHERE NOT EXISTS (SELECT 1 FROM HQMS_DictionarySetting WHERE Code='01GTNFVSW2YNNETN0RSR10AMCD');
+
+INSERT INTO HQMS_DictionarySetting (Code,Item,Name,CategoryCode,CategoryItem,Rank,DefaultFlag,EnabledFlag)
+SELECT '01GTNG4X6WRDQDRM00QK6B21MW','June','六月','01GTNFQDADBJCMK9Q8V1ZK8R0M','MonthSetting',13,True,True
+WHERE NOT EXISTS (SELECT 1 FROM HQMS_DictionarySetting WHERE Code='01GTNG4X6WRDQDRM00QK6B21MW');
+
+INSERT INTO HQMS_DictionarySetting (Code,Item,Name,CategoryCode,CategoryItem,Rank,DefaultFlag,EnabledFlag)
+SELECT '01GTNG4X6W6DJBSVDMPAT5RTEC','July','七月','01GTNFQDADBJCMK9Q8V1ZK8R0M','MonthSetting',14,True,True
+WHERE NOT EXISTS (SELECT 1 FROM HQMS_DictionarySetting WHERE Code='01GTNG4X6W6DJBSVDMPAT5RTEC');
+
+INSERT INTO HQMS_DictionarySetting (Code,Item,Name,CategoryCode,CategoryItem,Rank,DefaultFlag,EnabledFlag)
+SELECT '01GTNG4X6WMPWGTXZY82KREPFC','August','八月','01GTNFQDADBJCMK9Q8V1ZK8R0M','MonthSetting',15,True,True
+WHERE NOT EXISTS (SELECT 1 FROM HQMS_DictionarySetting WHERE Code='01GTNG4X6WMPWGTXZY82KREPFC');
+
+INSERT INTO HQMS_DictionarySetting (Code,Item,Name,CategoryCode,CategoryItem,Rank,DefaultFlag,EnabledFlag)
+SELECT '01GTNG4X6WHTMXS6AD72P7T0A2','September','九月','01GTNFQDADBJCMK9Q8V1ZK8R0M','MonthSetting',16,True,True
+WHERE NOT EXISTS (SELECT 1 FROM HQMS_DictionarySetting WHERE Code='01GTNG4X6WHTMXS6AD72P7T0A2');
+
+INSERT INTO HQMS_DictionarySetting (Code,Item,Name,CategoryCode,CategoryItem,Rank,DefaultFlag,EnabledFlag)
+SELECT '01GTNG4X6WCWHGPRDDH9462HC2','October','十月','01GTNFQDADBJCMK9Q8V1ZK8R0M','MonthSetting',17,True,True
+WHERE NOT EXISTS (SELECT 1 FROM HQMS_DictionarySetting WHERE Code='01GTNG4X6WCWHGPRDDH9462HC2');
+
+INSERT INTO HQMS_DictionarySetting (Code,Item,Name,CategoryCode,CategoryItem,Rank,DefaultFlag,EnabledFlag)
+SELECT '01GTNG9KBTJX7VFRJF9A27887T','November','十一月','01GTNFQDADBJCMK9Q8V1ZK8R0M','MonthSetting',18,True,True
+WHERE NOT EXISTS (SELECT 1 FROM HQMS_DictionarySetting WHERE Code='01GTNG9KBTJX7VFRJF9A27887T');
+
+INSERT INTO HQMS_DictionarySetting (Code,Item,Name,CategoryCode,CategoryItem,Rank,DefaultFlag,EnabledFlag)
+SELECT '01GTNG9KBTJ794RE7HTVS8MKQ7','December','十二月','01GTNFQDADBJCMK9Q8V1ZK8R0M','MonthSetting',19,True,True
+WHERE NOT EXISTS (SELECT 1 FROM HQMS_DictionarySetting WHERE Code='01GTNG9KBTJ794RE7HTVS8MKQ7');

@@ -20,3 +20,11 @@ CREATE TABLE HQMS_DictionaryCategorySetting
 INSERT INTO HQMS_DictionaryCategorySetting (Code,Item,Name,Rank,DefaultFlag,EnabledFlag)
 SELECT '01GT3M1KGWN67V9ARD839D7ZSF','MenuSetting','菜单设置',1,True,True
 WHERE NOT EXISTS (SELECT 1 FROM HQMS_DictionaryCategorySetting WHERE Code='01GT3M1KGWN67V9ARD839D7ZSF');
+
+INSERT INTO HQMS_DictionaryCategorySetting (Code,Item,Name,Rank,DefaultFlag,EnabledFlag)
+SELECT '01GTN95ZFWMSK11T1YWYMEGS9Z','YearSetting','年份设置',2,True,True
+WHERE NOT EXISTS (SELECT 1 FROM HQMS_DictionaryCategorySetting WHERE Code='01GTN95ZFWMSK11T1YWYMEGS9Z');
+
+INSERT INTO HQMS_DictionaryCategorySetting (Code,Item,Name,Rank,DefaultFlag,EnabledFlag)
+SELECT '01GTNFQDADBJCMK9Q8V1ZK8R0M','MonthSetting','月份设置',3,True,True
+WHERE NOT EXISTS (SELECT 1 FROM HQMS_DictionaryCategorySetting WHERE Code='01GTNFQDADBJCMK9Q8V1ZK8R0M');
