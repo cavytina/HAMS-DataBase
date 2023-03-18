@@ -28,3 +28,7 @@ WHERE NOT EXISTS (SELECT 1 FROM HQMS_DictionaryCategorySetting WHERE Code='01GTN
 INSERT INTO HQMS_DictionaryCategorySetting (Code,Item,Name,Rank,DefaultFlag,EnabledFlag)
 SELECT '01GTNFQDADBJCMK9Q8V1ZK8R0M','MonthSetting','月份设置',3,True,True
 WHERE NOT EXISTS (SELECT 1 FROM HQMS_DictionaryCategorySetting WHERE Code='01GTNFQDADBJCMK9Q8V1ZK8R0M');
+
+INSERT INTO HQMS_DictionaryCategorySetting (Code,Item,Name,Rank,DefaultFlag,EnabledFlag)
+SELECT '01GVGA3FQM9M5H3ZRP14H3ZJSX','CustomSetting','自定义设置',4,True,True
+WHERE NOT EXISTS (SELECT 1 FROM HQMS_DictionaryCategorySetting WHERE Code='01GVGA3FQM9M5H3ZRP14H3ZJSX');

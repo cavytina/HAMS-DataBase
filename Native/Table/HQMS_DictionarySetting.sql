@@ -94,3 +94,23 @@ WHERE NOT EXISTS (SELECT 1 FROM HQMS_DictionarySetting WHERE Code='01GTNG9KBTJX7
 INSERT INTO HQMS_DictionarySetting (Code,Item,Name,CategoryCode,CategoryItem,Rank,DefaultFlag,EnabledFlag)
 SELECT '01GTNG9KBTJ794RE7HTVS8MKQ7','December','十二月','01GTNFQDADBJCMK9Q8V1ZK8R0M','MonthSetting',19,True,True
 WHERE NOT EXISTS (SELECT 1 FROM HQMS_DictionarySetting WHERE Code='01GTNG9KBTJ794RE7HTVS8MKQ7');
+
+INSERT INTO HQMS_DictionarySetting (Code,Item,Name,Content,CategoryCode,CategoryItem,Rank,DefaultFlag,EnabledFlag)
+SELECT '01GVGA3FQNHBTC5HWAYHGCVT45','HospitalCode','医院代码','01','01GVGA3FQM9M5H3ZRP14H3ZJSX','CustomSetting',20,True,True
+WHERE NOT EXISTS (SELECT 1 FROM HQMS_DictionarySetting WHERE Code='01GVGA3FQNHBTC5HWAYHGCVT45');
+
+INSERT INTO HQMS_DictionarySetting (Code,Item,Name,CategoryCode,CategoryItem,Rank,DefaultFlag,EnabledFlag)
+SELECT '01GVGA3FQNBZ9YZ9R2PVEBXZKC','ExportFileCatalogue','导出文件目录','01GVGA3FQM9M5H3ZRP14H3ZJSX','CustomSetting',21,True,True
+WHERE NOT EXISTS (SELECT 1 FROM HQMS_DictionarySetting WHERE Code='01GVGA3FQNBZ9YZ9R2PVEBXZKC');
+
+INSERT INTO HQMS_DictionarySetting (Code,Item,Name,CategoryCode,CategoryItem,Rank,DefaultFlag,EnabledFlag)
+SELECT '01GVGA3FQN1W8600ZFKR4K74MY','UpLoadFileCatalogue','上传文件目录','01GVGA3FQM9M5H3ZRP14H3ZJSX','CustomSetting',22,True,True
+WHERE NOT EXISTS (SELECT 1 FROM HQMS_DictionarySetting WHERE Code='01GVGA3FQN1W8600ZFKR4K74MY');
+
+INSERT INTO HQMS_DictionarySetting (Code,Item,Name,CategoryCode,CategoryItem,Rank,DefaultFlag,EnabledFlag)
+SELECT '01GVGA3FQNHVVFEM8KQ6FDCYFS','MasterExportFileCatalogue','汇总文件导出目录','01GVGA3FQM9M5H3ZRP14H3ZJSX','CustomSetting',23,True,True
+WHERE NOT EXISTS (SELECT 1 FROM HQMS_DictionarySetting WHERE Code='01GVGA3FQNHVVFEM8KQ6FDCYFS');
+
+INSERT INTO HQMS_DictionarySetting (Code,Item,Name,CategoryCode,CategoryItem,Rank,DefaultFlag,EnabledFlag)
+SELECT '01GVGAG8VD3GYZMXG1MQZ2YW1T','DetailExportFileCatalogue','明细文件导出目录','01GVGA3FQM9M5H3ZRP14H3ZJSX','CustomSetting',24,True,True
+WHERE NOT EXISTS (SELECT 1 FROM HQMS_DictionarySetting WHERE Code='01GVGAG8VD3GYZMXG1MQZ2YW1T');
