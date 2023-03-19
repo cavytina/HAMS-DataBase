@@ -21,6 +21,8 @@ INSERT INTO System_DataBaseSetting (Code,Item,Name,Rank,DefaultFlag,EnabledFlag)
 SELECT '01GQ4CXY72MR4SKSJG7664B1HS','Native','本地配置数据库',1,True,True
 WHERE NOT EXISTS (SELECT 1 FROM System_DataBaseSetting WHERE Code='01GQ4CXY72MR4SKSJG7664B1HS');
 
-INSERT INTO System_DataBaseSetting (Code,Item,Name,Rank,DefaultFlag,EnabledFlag)
-SELECT '01GQ4CXY72MZ7GZAFR9MSE99AW','BAGLDB','病案管理数据库',2,False,True
+INSERT INTO System_DataBaseSetting (Code,Item,Name,Content,Rank,DefaultFlag,EnabledFlag)
+SELECT '01GQ4CXY72MZ7GZAFR9MSE99AW','BAGLDB','病案管理数据库',
+    'ygXZxSoEX3Yqbt9Xpc0g7hiXEdo89jh9Y9RDJmDg24IfByrC59Zdd68jL6wjBYsQVc6SqYQzgNDK34K7tf7paNorh456wZSyFGlba5cvfXqI6FdFdB0ff1KcT4pxnevt/I9/8gH2qY5bdtM3EcmuJQ==',
+        2,False,True
 WHERE NOT EXISTS (SELECT 1 FROM System_DataBaseSetting WHERE Code='01GQ4CXY72MZ7GZAFR9MSE99AW');
