@@ -22,7 +22,7 @@ SELECT '01GPKA6WE841SE31MQWH3Y5WNF','ApplictionCatalogue','程序运行目录',1
 WHERE NOT EXISTS (SELECT 1 FROM System_PathSetting WHERE Code='01GPKA6WE841SE31MQWH3Y5WNF');
 
 INSERT INTO System_PathSetting (Code,Item,Name,Rank,DefaultFlag,EnabledFlag)
-SELECT '01GPKA6WE85VSFC0S16CF7MCBJ','NativeDataBaseFilePath','本地数据库文件路径',1,True,True
+SELECT '01GPKA6WE85VSFC0S16CF7MCBJ','NativeDataBaseFilePath','本地数据库文件路径',2,True,True
 WHERE NOT EXISTS (SELECT 1 FROM System_PathSetting WHERE Code='01GPKA6WE85VSFC0S16CF7MCBJ');
 
 INSERT INTO System_PathSetting (Code,Item,Name,Rank,DefaultFlag,EnabledFlag)
