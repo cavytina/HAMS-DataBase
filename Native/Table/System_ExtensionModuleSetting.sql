@@ -25,7 +25,7 @@ WHERE NOT EXISTS (SELECT 1 FROM System_ExtensionModuleSetting WHERE Code='01GRY4
 
 INSERT INTO System_ExtensionModuleSetting (Code,Item,Name,Content,Description,SuperCode,SuperItem,Rank,DefaultFlag,EnabledFlag)
 SELECT '01GRY4H3XYD8MZKN99XBXAE9PA','BasicConfigurationModule','基本设置','HAMS.Extension.Control.BasicConfiguration.dll',
-        'HAMS.Extension.Control.BasicConfiguration.BasicConfigurationionModule, HAMS.Extension.Control.BasicConfiguration, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null',
+        'HAMS.Extension.Control.BasicConfiguration.BasicConfigurationModule, HAMS.Extension.Control.BasicConfiguration, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null',
         '01GRY4H3XYEM775NTTMHN69XMF','Configuration',2,True,True
 WHERE NOT EXISTS (SELECT 1 FROM System_ExtensionModuleSetting WHERE Code='01GRY4H3XYD8MZKN99XBXAE9PA');
 
