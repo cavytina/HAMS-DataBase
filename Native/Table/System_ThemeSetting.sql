@@ -21,5 +21,5 @@ CREATE TABLE System_ThemeSetting
 );
 
 INSERT INTO System_ThemeSetting (Code,Item,Name,BaseTheme,PrimaryColor,SecondaryColor,Rank,DefaultFlag,EnabledFlag)
-SELECT '01GX8353SEH9NXXND2KZWMYB79','BaseTheme','基础主题','Dark','Blue','Red',1,False,True
+SELECT '01GX8353SEH9NXXND2KZWMYB79','BaseTheme','基础主题','Light','Blue','Red',1,False,True
 WHERE NOT EXISTS (SELECT 1 FROM System_ThemeSetting WHERE Code='01GX8353SEH9NXXND2KZWMYB79');
