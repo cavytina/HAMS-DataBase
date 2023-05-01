@@ -28,3 +28,7 @@ WHERE NOT EXISTS (SELECT 1 FROM System_PathSetting WHERE Code='01GPKA6WE85VSFC0S
 INSERT INTO System_PathSetting (Code,Item,Name,Rank,DefaultFlag,EnabledFlag)
 SELECT '01GPSK8EY3VD74Y0508D7KP2Z4','LogFileCatalogue','日志文件目录',3,False,True
 WHERE NOT EXISTS (SELECT 1 FROM System_PathSetting WHERE Code='01GPSK8EY3VD74Y0508D7KP2Z4');
+
+INSERT INTO System_PathSetting (Code,Item,Name,Rank,DefaultFlag,EnabledFlag)
+SELECT '01GZ8C9VQ9YSAYNZ64H7N8TS9V','ExportFileCatalogue','导出文件目录',4,False,True
+WHERE NOT EXISTS (SELECT 1 FROM System_PathSetting WHERE Code='01GZ8C9VQ9YSAYNZ64H7N8TS9V');
